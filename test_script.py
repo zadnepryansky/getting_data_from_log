@@ -15,6 +15,11 @@ def param_save(data):
         f.write(f"{data}\n")
 
 
+def json_save(data):
+    with open('testJson.json', 'w+') as f:
+        f.write(f"{data}\n")
+
+
 def test_parameters():
     with open(TEST_FILE) as f:
         param = []
@@ -30,11 +35,6 @@ def test_parameters():
                     param_save(param)  # save
                 except json.decoder.JSONDecodeError as e:
                     TEST_ERRORS.append(f'Error: {e}')
-
-
-def json_save(data):
-    with open('testJson.json', 'w+') as f:
-        f.write(f"{data}\n")
 
 
 def test_json_format():
