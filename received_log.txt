@@ -1,0 +1,83 @@
+16:30:46.651 New UDP connection from /192.168.0.102:1024
+16:30:46.651 UDP: Recv SyncRequest C = -32394 S = -25509 Data = 7681000001
+16:30:46.651 UDP: Send SyncReply C = 33142 S = 40027 Data = 5B9C768103 5 bytes sent
+16:30:46.671 UDP: Recv C = 33142 S = 40027 Data = 76815B9C040125080C1084FC0A1801200328013095ADE1EF0C380A40928FE76060026A0603019556F8CD7004
+16:30:46.671 Received msg {  data: [0125080C1084FC0A1801200328013095ADE1EF0C380A40928FE76060026A0603019556F8CD7004]  start position: 0 end position: 39 }
+16:30:46.836 receive message HelloFromDev params = {"device_id": 12,"kit_tick": 179716,"was_early_connected": true,"firmware_version": 3,"global_changes": 1,"minor_changes": -839362923,"devtype": "TAGER_ECLIPSE","SerialNumber": 203016082,"lang": "ENGLISH","firmware_ver": "03019556F8CD","type_display": "IPS"} commandID: 1
+16:30:46.672 Processed cmdId = 1 parse_time_ms = 0 process_time_ms = 0
+16:30:46.731 UDP: Send C = 33181 S = 40027 Data = 5B9C9D8104 5 bytes sent
+16:30:46.767 UDP: Recv C = 33181 S = 40027 Data = 9D815B9C040E3A1806200638DC0B40DC0B58016001681E701E781E80011E8801019001019801B504A001B504A8010FB0010FB80101C00101C80101D00101980203
+16:30:46.767 Received msg {  data: [0E3A1806200638DC0B40DC0B58016001681E701E781E80011E8801019001019801B504A001B504A8010FB0010FB80101C00101C80101D00101980203]  start position: 0 end position: 60 }
+16:30:46.981 receive message WeaponSettings params = {"damage_weapon1": 6,"damage_weapon2": 6,"recharge_time_weapon1": 1500,"recharge_time_weapon2": 1500,"infinite_clips_weapon1": true,"infinite_clips_weapon2": true,"clips_weapon1": 30,"clips_weapon2": 30,"ammo_weapon1": 30,"ammo_weapon2": 30,"shots_in_auto_mode_weapon1": 1,"shots_in_auto_mode_weapon2": 1,"rate_of_fire_weapon1": 565,"rate_of_fire_weapon2": 565,"ir_power_weapon1": 15,"ir_power_weapon2": 15,"autoreload_weapon1": true,"autoreload_weapon2": true,"touch_sensor_enable": true,"kickback": true,"number_of_shot_for_overheat": 3} commandID: 14
+16:30:46.767 Processed cmdId = 14 parse_time_ms = 0 process_time_ms = 0
+16:30:46.828 UDP: Send C = 33241 S = 40027 Data = 5B9CD98104 5 bytes sent
+16:30:46.989 send message nullable message commandID: 1205
+16:30:46.841 UDP: Add cmd to send buf. Data = B50900
+16:30:46.847 UDP: Send C = 33241 S = 40027 Data = 5B9CD98104B50900 8 bytes sent
+16:30:46.900 UDP: Recv C = 33181 S = 40027 Data = 9D815B9C040E3A1806200638DC0B40DC0B58016001681E701E781E80011E8801019001019801B504A001B504A8010FB0010FB80101C00101C80101D001019802030D0418012064
+16:30:46.900 UDP PERF: duplicated data: 60 bytes [33181, 33241), new data: 6 bytes [33241, 33247]
+16:30:46.900 Received msg {  data: [0D0418012064]  start position: 0 end position: 6 }
+16:30:47.088 receive message PresetSettings params = {"zombies_damage_change_team": true,"percent_vampires": 100} commandID: 13
+16:30:46.900 Processed cmdId = 13 parse_time_ms = 0 process_time_ms = 0
+16:30:46.948 UDP: Send C = 33247 S = 40027 Data = 5B9CDF8104B50900 8 bytes sent
+16:30:46.988 UDP: Recv C = 33247 S = 40030 Data = DF815E9C041602083203480801100F18462028286430064001480150960158B504601E681E70E80778A0068001DC0B880188279001B0FE0AA00101C00101C80101D00101880201B00201C80201E00201F00228
+16:30:46.988 Received msg {  data: [16020832]  start position: 0 end position: 4 }
+16:30:47.151 receive message ResponseBatteryLevel params = {"battery_level": 50} commandID: 22
+16:30:46.989 Processed cmdId = 22 parse_time_ms = 0 process_time_ms = 1
+16:30:46.989 Received msg {  data: [03480801100F18462028286430064001480150960158B504601E681E70E80778A0068001DC0B880188279001B0FE0AA00101C00101C80101D00101880201B00201C80201E00201F00228]  start position: 4 end position: 74 }
+16:30:47.152 receive message SettingsArena2_5 params = {"shots_in_auto_mode": 1,"IR_strength": 15,"IR_max_strength": 70,"IR_min_strength": 40,"sound_volume": 100,"damage": 6,"resolution_change_shoot_mode": true,"infinite_clips": true,"default_health": 150,"fire_rate": 565,"default_clips_number": 30,"default_ammo_number": 30,"shock_time": 1000,"invulnerability_time": 800,"reload_time": 1500,"autorespawn_time": 5000,"kit_tick": 180016,"autoreload_mode": true,"touch_sensor_enable": true,"draw_timer": true,"draw_place": true,"state_vibro_on_tag": true,"allowed_hb_off": true,"team_color": 1,"explosion_wave_lenght": 1,"explosion_power_ir": 40} commandID: 3
+16:30:46.989 Processed cmdId = 3 parse_time_ms = 0 process_time_ms = 0
+16:30:47.048 UDP: Send C = 33325 S = 40030 Data = 5E9C2D8204 5 bytes sent
+16:30:47.064 UDP: Recv C = 33325 S = 40030 Data = 2D825E9C04020F480150928FE760581E601EB0019601
+16:30:47.064 Received msg {  data: [020F480150928FE760581E601EB0019601]  start position: 0 end position: 17 }
+16:30:47.210 receive message StatFromKit params = {"team_color": 1,"serial_number": 203016082,"curr_clips_number": 30,"curr_ammo_number": 30,"default_health": 150} commandID: 2
+16:30:47.064 Processed cmdId = 2 parse_time_ms = 0 process_time_ms = 0
+16:30:47.125 UDP: Send C = 33342 S = 40030 Data = 5E9C3E8204 5 bytes sent
+16:30:47.165 UDP: Recv C = 33342 S = 40030 Data = 3E825E9C040F00
+16:30:47.165 Received msg {  data: [0F00]  start position: 0 end position: 2 }
+16:30:47.250 receive message PlayersTableTimeStamp params = {} commandID: 15
+16:30:47.165 Processed cmdId = 15 parse_time_ms = 0 process_time_ms = 0
+16:30:47.225 UDP: Send C = 33344 S = 40030 Data = 5E9C408204 5 bytes sent
+16:30:47.268 UDP: Recv C = 33344 S = 40030 Data = 40825E9C0421220A20080610FDFFFFFF071A060100955638DA22060100D471D43A2A060100D4EDC8A4
+16:30:47.268 Received msg {  data: [21220A20080610FDFFFFFF071A060100955638DA22060100D471D43A2A060100D4EDC8A4]  start position: 0 end position: 36 }
+16:30:47.278 receive message SlavesInfoResponce params = {"info": [{"type": "SlaveType_Vest_3_0","dev_id": 2147483645,"firmware_ver": "0100955638DA","bios_ver": "0100D471D43A","boot_ver": "0100D4EDC8A4"}]} commandID: 33
+16:30:47.268 Processed cmdId = 33 parse_time_ms = 0 process_time_ms = 0
+16:30:47.328 UDP: Send C = 33380 S = 40030 Data = 5E9C648204 5 bytes sent
+16:30:47.440 UDP: Recv C = 33344 S = 40030 Data = 40825E9C0421220A20080610FDFFFFFF071A060100955638DA22060100D471D43A2A060100D4EDC8A4
+16:30:47.440 UDP PERF: duplicated data: 36 bytes [33344, 33380), new data: 0 bytes [33380, 33380]
+16:30:47.833 UDP: Recv C = 33380 S = 40030 Data = 64825E9C04B6090608FFFCFFFF0F
+16:30:47.833 Received msg {  data: [B6090608FFFCFFFF0F]  start position: 0 end position: 9 }
+16:30:47.833 receive message RuntimeError params = {"current_error": 4294966911} commandID: 1206
+16:30:47.833 Processed cmdId = 1206 parse_time_ms = 0 process_time_ms = 0
+16:30:47.893 UDP: Send C = 33389 S = 40030 Data = 5E9C6D8204 5 bytes sent
+16:30:47.986 UDP: Recv C = 33380 S = 40030 Data = 64825E9C04B6090608FFFCFFFF0F
+16:30:47.986 UDP PERF: duplicated data: 9 bytes [33380, 33389), new data: 0 bytes [33389, 33389]
+16:30:48.358 send message nullable message commandID: 17
+16:30:48.357 UDP: Add cmd to send buf. Data = 1100
+16:30:48.364 UDP: Send C = 33389 S = 40030 Data = 5E9C6D82041100 7 bytes sent
+16:30:48.465 UDP: Send C = 33389 S = 40030 Data = 5E9C6D82041100 7 bytes sent
+16:30:48.547 UDP: Recv C = 33389 S = 40032 Data = 6D82609C04
+16:30:48.554 UDP: Recv C = 33389 S = 40032 Data = 6D82609C040700
+16:30:48.554 Received msg {  data: [0700]  start position: 0 end position: 2 }
+16:30:48.560 receive message nullable message commandID: 7
+16:30:48.554 Processed cmdId = 7 parse_time_ms = 0 process_time_ms = 0
+16:30:48.616 UDP: Send C = 33391 S = 40032 Data = 609C6F8204 5 bytes sent
+16:30:48.664 UDP: Recv C = 33389 S = 40032 Data = 6D82609C040700
+16:30:48.664 UDP PERF: duplicated data: 2 bytes [33389, 33391), new data: 0 bytes [33391, 33391]
+16:30:50.748 UDP: Recv C = 33391 S = 40032 Data = 6F82609C04D10F0608C5FFFFFF0F
+16:30:50.748 Received msg {  data: [D10F0608C5FFFFFF0F]  start position: 0 end position: 9 }
+16:30:50.755 receive message ESP_WiFiRSSI params = {"rssi": -59} commandID: 2001
+16:30:50.748 Processed cmdId = 2001 parse_time_ms = 0 process_time_ms = 0
+16:30:50.809 UDP: Send C = 33400 S = 40032 Data = 609C788204 5 bytes sent
+16:30:53.360 send message nullable message commandID: 17
+16:30:53.357 UDP: Add cmd to send buf. Data = 1100
+16:30:53.367 UDP: Send C = 33400 S = 40032 Data = 609C7882041100 7 bytes sent
+16:30:53.470 UDP: Send C = 33400 S = 40032 Data = 609C7882041100 7 bytes sent
+16:30:53.570 UDP: Send C = 33400 S = 40032 Data = 609C7882041100 7 bytes sent
+16:30:53.594 UDP: Recv C = 33400 S = 40034 Data = 7882629C04
+16:30:53.604 UDP: Recv C = 33400 S = 40034 Data = 7882629C040700
+16:30:53.604 Received msg {  data: [0700]  start position: 0 end position: 2 }
+16:30:53.608 receive message nullable message commandID: 7
+16:30:53.604 Processed cmdId = 7 parse_time_ms = 0 process_time_ms = 0
+16:30:53.665 UDP: Send C = 33402 S = 40034 Data = 629C7A8204 5 bytes sent
+16:30:58.362 send message nullable message commandID: 17
