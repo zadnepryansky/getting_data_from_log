@@ -4,7 +4,7 @@ from pathlib import Path
 import json
 
 DIR_PATH = pathlib.Path.cwd()
-TEST_LOG_TEXT = Path('received_log.txt')
+TEST_LOG_TEXT = Path('090127-192_168_0_3_1024.txt')
 TEST_FILE = Path(DIR_PATH, TEST_LOG_TEXT)
 
 TEST_ERRORS = []
@@ -17,7 +17,7 @@ def param_save(data):
 
 def json_save(data):
     with open('testJson.json', 'w+') as f:
-        f.write(f"{data}\n")
+        f.write(f"{data}")
 
 
 def test_parameters():
